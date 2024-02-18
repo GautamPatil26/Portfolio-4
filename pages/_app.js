@@ -7,6 +7,16 @@ export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Head>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QN4YGJVP48"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-QN4YGJVP48');
+        </script>
+
         <script src="https://kit.fontawesome.com/b53972c862.js" crossorigin="anonymous"></script>
         <link
           rel="alternate"
