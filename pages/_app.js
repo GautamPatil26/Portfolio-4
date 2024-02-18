@@ -7,6 +7,7 @@ export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <script src="https://kit.fontawesome.com/b53972c862.js" crossorigin="anonymous"></script>
         <link
           rel="alternate"
           type="application/rss+xml"
