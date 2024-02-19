@@ -69,7 +69,7 @@ img.next-image {
   object-fit: cover;
   height: 9rem;
   width: 20rem;
-  border: 1px solid black
+  border: .5px solid white
 }
 
 .photo{
@@ -89,6 +89,7 @@ img.next-image {
 .stack-item{
   margin: .2rem;
   background-color: rgb(190, 190, 190);
+  color: black;
   border-radius: .25rem;
   padding: .2rem;
 }
